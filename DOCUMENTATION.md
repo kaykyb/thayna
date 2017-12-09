@@ -1,13 +1,13 @@
 # thayna.js documentation
 
-[Components](#components)
-[The content-dropper tag](#the-content-dropper-tag)
-[Conditions](#conditions)
-[Databinding](#databinding)
-[App class](#app-class)
-[Define Component](#define-component)
-[Parse](#parse)
-[Re-evaluate variables](#re-evaluate-variables)
+- [Components](#components)
+- [The content-dropper tag](#the-content-dropper-tag)
+- [Conditions](#conditions)
+- [Databinding](#databinding)
+- [App class](#app-class)
+- [Define Component](#define-component)
+- [Parse](#parse)
+- [Re-evaluate variables](#re-evaluate-variables)
  
 
 ## HTML
@@ -195,11 +195,15 @@ var thayna = new Thayna.App();
 // helloText is being used in this binding.
 thayna.defineComponent(
 	"hello-guy",
+<<<<<<< HEAD
 	"<h1>
 		<m-bind>
 			window.helloText
 		</m-bind>
 	</h1>",
+=======
+	"<m-bind>helloText</m-bind>",
+>>>>>>> d4a164f8138734eea7f56fcefb4eb3803e27658a
 	"hello"
 );  
 
