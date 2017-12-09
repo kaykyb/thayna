@@ -195,11 +195,11 @@ var thayna = new Thayna.App();
 // helloText is being used in this binding.
 thayna.defineComponent(
 	"hello-guy",
-	'<h1>
+	"<h1>
 		<m-bind>
 			window.helloText
 		</m-bind>
-	</h1>',
+	</h1>",
 	"hello"
 );  
 
