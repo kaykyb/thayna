@@ -18,7 +18,7 @@ You can call a component by it's defined `<tag>`. Components act like placeholde
 
 #### The content-dropper tag
 
-When parsing a document, thayna.js thaynas `"<content-dropper/>"` in a component template with the innerHTML of the component's tag.
+When parsing a document, thayna.js replaces `"<content-dropper/>"` in a component template with the innerHTML of the component's tag.
 
 Example: a component with the following template
 ```html
