@@ -14,7 +14,7 @@
 
 #### Components
 
-You can call a component by it's defined `<tag>`. Components act like placeholders in thayna.js. When thayna.js parses the document, the innerHTML of the component's tag is thaynad by the template defined in javascript.
+You can call a component by it's defined `<tag>`. Components act like placeholders in thayna.js. When thayna.js parses the document, the innerHTML of the component's tag is replaced by the template defined in javascript.
 
 #### The content-dropper tag
 
