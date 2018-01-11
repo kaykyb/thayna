@@ -20,7 +20,7 @@ To starting using **thayna.js**, download the file _thayna.min.js_ and reference
 
 Lets create a very simple page with **thayna.js**:
 
-Inside the <body> tag of your html file, write:
+Inside the ```<body>``` tag of your html file, write:
 
 ```html
 <m-bind>
